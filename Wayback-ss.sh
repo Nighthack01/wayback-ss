@@ -28,7 +28,7 @@ cat $1.txt | waybackurls -get-versions  | tee $1with_wayback_urls.txt
 
 sort $1with_wayback_urls.txt | uniq | tee $1sort_with_wayback_urls.txt
 
-echo -e "\e[1;31m\nTaking Screenshort using aquatone \n \e[0m"
+echo -e "\e[1;31m\nTaking screenshot using aquatone \n \e[0m"
 
 cat  $1sort_with_wayback_urls.txt | aquatone 
 
