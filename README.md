@@ -1,6 +1,6 @@
 # wayback-ss
 
-Bash Script to Automate waybackurl screenshot using Waybackurls -get-versions and aquatone 
+Bash Script to Automate waybackurl screenshots using Waybackurls -get-versions and aquatone 
 
 
 # Pre-Requisites
